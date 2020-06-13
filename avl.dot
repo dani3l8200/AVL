@@ -1,0 +1,45 @@
+digraph AVL {
+	rankdir=L;
+	 nodesep = 0.6;
+	 ranksep =0.4; node [shape = circle,width = 0.4,height=0.6,style=filled, fillcolor=olivedrab1,fixedsize=true];
+	graph[bgcolor = lemonchiffon1, label="Numeros"];
+	edge [color=red];
+	"30" [label="30"];
+	"22" [label="22"];
+	"17" [label="17"];
+	"3" [label="3"];
+	
+"17" -> "3";
+	"20" [label="20"];
+	
+"17" -> "20";
+	
+"22" -> "17";
+	"29" [label="29"];
+	"25" [label="25"];
+	
+"29" -> "25";
+	
+"22" -> "29";
+	
+"30" -> "22";
+	"71" [label="71"];
+	"48" [label="48"];
+	"46" [label="46"];
+	
+"48" -> "46";
+	
+"71" -> "48";
+	"100" [label="100"];
+	"82" [label="82"];
+	
+"100" -> "82";
+	"101" [label="101"];
+	
+"100" -> "101";
+	
+"71" -> "100";
+	
+"30" -> "71";
+	
+}

@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1591844025 source:c:\users\dani3l8200\downloads\avl\src\avl.cpp
+	"AVL.h"
+	<string>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+
+1591843723 c:\users\dani3l8200\downloads\avl\include\avl.h
+	<string>
+	"Persona.h"
+
+1591836522 c:\users\dani3l8200\downloads\avl\include\persona.h
+	<string>
+
+1591836594 source:c:\users\dani3l8200\downloads\avl\src\persona.cpp
+	"Persona.h"
+	<string>
+
+1591900529 source:c:\users\dani3l8200\downloads\avl\main.cpp
+	<bits/stdc++.h>
+	"AVL.h"
+	"Persona.h"
+
